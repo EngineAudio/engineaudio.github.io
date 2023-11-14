@@ -320,12 +320,11 @@ main .clients h2 {
 
   .clients-gallery {
     display: grid;
-    grid-template-columns: minmax(2em, auto) minmax(2em, 60em) minmax(
-        2em,
+    grid-template-columns: minmax(1em, auto) minmax(2em, auto) minmax(
+        1em,
         auto
       );
-    grid-template-rows: auto;
-    grid-gap: 8em;
+    grid-gap: 2em;
   }
   .clients-gallery_item-1 {
     grid-column-start: 2;
